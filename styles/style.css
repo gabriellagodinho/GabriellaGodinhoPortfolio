@@ -104,11 +104,11 @@ body{
     height: auto;
 }
 .imagem {
-    width: 500px; /* Defina a largura desejada */
+    width: 100px; /* Defina a largura desejada */
     height: auto; /* Mantenha a proporção original da imagem */
 }
 .imagem2 {
-    width: 500px; /* Defina a largura desejada */
+    width: 100px; /* Defina a largura desejada */
     height: auto; /* Mantenha a proporção original da imagem */
 }
 @media (max-width: 767px) {
