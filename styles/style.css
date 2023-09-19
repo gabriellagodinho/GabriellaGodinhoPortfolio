@@ -100,18 +100,18 @@ body{
 /* ... (seu CSS existente) ... */
 
 .imagem-redimensionada {
-    max-width: 100%;
+    max-width: 5%;
     height: auto;
 }
 .imagem {
-    width: 100px; /* Defina a largura desejada */
+    width: 500px; /* Defina a largura desejada */
     height: auto; /* Mantenha a proporção original da imagem */
 }
 .imagem2 {
-    width: 100px; /* Defina a largura desejada */
+    width: 500px; /* Defina a largura desejada */
     height: auto; /* Mantenha a proporção original da imagem */
 }
-@media (max-width: 100px) {
+@media (max-width: 767px) {
     /* Estilos para telas estreitas (como celulares) */
     /* Você pode ajustar esses estilos conforme necessário */
 }
