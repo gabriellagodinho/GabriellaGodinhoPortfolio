@@ -111,7 +111,7 @@ body{
     width: 100px; /* Defina a largura desejada */
     height: auto; /* Mantenha a proporção original da imagem */
 }
-@media (max-width: 767px) {
+@media (max-width: 100px) {
     /* Estilos para telas estreitas (como celulares) */
     /* Você pode ajustar esses estilos conforme necessário */
 }
