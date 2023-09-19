@@ -111,4 +111,18 @@ body{
     width: 500px; /* Defina a largura desejada */
     height: auto; /* Mantenha a proporção original da imagem */
 }
+/* Estilos para telas grandes (desktop) */
+@media screen and (min-width: 768px) {
+    /* Adicione seus estilos específicos para telas maiores aqui */
+}
+
+/* Estilos para telas médias (tablets) */
+@media screen and (max-width: 767px) {
+    /* Adicione seus estilos específicos para tablets aqui */
+}
+
+/* Estilos para telas pequenas (dispositivos móveis) */
+@media screen and (max-width: 480px) {
+    /* Adicione seus estilos específicos para dispositivos móveis aqui */
+}
 
