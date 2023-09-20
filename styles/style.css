@@ -104,11 +104,16 @@ body {
 
 /* Estilos para o cabeçalho */
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 5%; /* Ajuste o espaçamento conforme necessário */
 }
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha em telas estreitas */
+    gap: 20px; /* Espaçamento entre os links */
+}
+.cabecalho__icone {
+    max-width: 100px; /* Tamanho máximo do ícone, ajuste conforme necessário */
+    height: auto;
 }
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
@@ -116,18 +121,30 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+    margin-bottom: 10px; /* Espaçamento vertical entre os links */
 }
 
 /* Estilos para a imagem principal */
 .imagem2 {
     max-width: 100%; /* Imagem se ajusta automaticamente à largura da tela */
     height: auto;
+    display: block; /* Remove espaços em branco abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente na tela */
 }
 
 /* Outros estilos específicos do seu site podem ser adicionados aqui */
 @media (max-width: 767px) {
     /* Estilos para telas estreitas (como celulares) */
     /* Você pode ajustar esses estilos conforme necessário */
+    .cabecalho {
+        padding: 2% 0% 0% 5%; /* Ajuste o espaçamento conforme necessário */
+    }
+    .cabecalho__menu {
+        flex-direction: column; /* Coloca os links em uma única coluna */
+    }
+    .cabecalho__menu__link {
+        margin-bottom: 20px; /* Espaçamento vertical entre os links */
+    }
 }
 
 
