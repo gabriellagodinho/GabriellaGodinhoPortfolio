@@ -111,3 +111,31 @@ body{
     width: 500px; /* Defina a largura desejada */
     height: auto; /* Mantenha a proporção original da imagem */
 }
+/* Estilos para telas pequenas (por exemplo, dispositivos móveis) */
+@media (max-width: 767px) {
+    /* Adicione estilos específicos para telas pequenas aqui */
+    .apresentacao {
+        padding: 5% 5%; /* Ajuste o espaçamento conforme necessário */
+    }
+    .apresentacao__conteudo {
+        width: 100%; /* Faça com que o conteúdo ocupe a largura total */
+    }
+    .imagem {
+        width: 100%; /* Faça a imagem ocupar a largura total */
+    }
+}
+
+/* Estilos para telas maiores (por exemplo, desktops) */
+@media (min-width: 768px) {
+    /* Adicione estilos específicos para telas maiores aqui */
+    .apresentacao {
+        padding: 5% 15%; /* Ajuste o espaçamento conforme necessário */
+    }
+    .apresentacao__conteudo {
+        width: 615px; /* Restaure a largura original do conteúdo */
+    }
+    .imagem {
+        width: 500px; /* Restaure a largura original da imagem */
+    }
+}
+
