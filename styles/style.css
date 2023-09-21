@@ -101,7 +101,7 @@ body{
 
 .imagem-redimensionada {
     max-width: 5%;
-    height: auto;
+    height: 5%;
 }
 .imagem {
     width: 500px; /* Defina a largura desejada */
