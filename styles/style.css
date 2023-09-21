@@ -100,7 +100,7 @@ body{
 /* ... (seu CSS existente) ... */
 
 .imagem-redimensionada {
-    max-width: 5%;
+    max-width: 10%;
     height: 10%;
 }
 .imagem {
