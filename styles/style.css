@@ -51,6 +51,7 @@ body{
 }
 
 .apresentacao__conteudo__titulo{
+    display: flex;
     font-size: 36px;
     font-family: var(--fonte-primaria);
 }
@@ -58,6 +59,7 @@ body{
     color: var(--cor-terciaria);
 }
 .apresentacao__conteudo__texto{
+    display: flex;
     font-size: 24px;
     font-family: var(--fonte-secundaria);
 }
@@ -70,6 +72,7 @@ body{
     gap: 32px;
 }
 .apresentacao__links__subtitulo{
+    display: flex;
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 24px;
@@ -103,7 +106,7 @@ body{
     font-size: 24px;
     font-weight: 400;
 }
-/* ... (seu CSS existente) ... */
+
 
 .imagem-redimensionada {
     display: flex;
@@ -112,39 +115,46 @@ body{
 }
 .imagem {
     display: flex;
-    width: 500px; /* Defina a largura desejada */
-    height: auto; /* Mantenha a proporção original da imagem */
+    width: 500px; 
+    height: auto; 
 }
 .imagem2 {
     display: flex;
-    width: 500px; /* Defina a largura desejada */
-    height: auto; /* Mantenha a proporção original da imagem */
+    width: 500px; 
+    height: auto; 
 }
-/* Estilos para telas pequenas (por exemplo, dispositivos móveis) */
+
 @media (max-width: 767px) {
-    /* Adicione estilos específicos para telas pequenas aqui */
+    display: flex;
     .apresentacao {
-        padding: 5% 5%; /* Ajuste o espaçamento conforme necessário */
+        padding: 5% 5%; 
+        display: flex;
     }
     .apresentacao__conteudo {
-        width: 100%; /* Faça com que o conteúdo ocupe a largura total */
+        width: 100%; 
+        display: flex;
     }
     .imagem {
-        width: 100%; /* Faça a imagem ocupar a largura total */
+        width: 100%; 
+        display: flex;
     }
 }
 
-/* Estilos para telas maiores (por exemplo, desktops) */
+
 @media (min-width: 768px) {
-    /* Adicione estilos específicos para telas maiores aqui */
+    display: flex;
+    
     .apresentacao {
-        padding: 5% 15%; /* Ajuste o espaçamento conforme necessário */
+        display: flex;
+        padding: 5% 15%; 
     }
     .apresentacao__conteudo {
-        width: 615px; /* Restaure a largura original do conteúdo */
+        display: flex;
+        width: 615px;
     }
     .imagem {
-        width: 500px; /* Restaure a largura original da imagem */
+        display: flex;
+        width: 500px; 
     }
 }
 
