@@ -1,158 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
-
 :root {
     --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #1b4d58;
     --cor-hover: #272727;
-
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
-
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-body {
+body{
+    box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
-
-<link>cabecalho</link> {
-    display: flex;
-    padding: 2% 5%;
-    justify-content: space-between;
-    align-items: center;
+.cabecalho{
+    padding: 2% 0% 0% 15%;
 }
-
-<link>cabecalho__menu</link> {
+.cabecalho__menu{
     display: flex;
-    gap: 3vw;
+    gap: 80px;
 }
-
-<link>cabecalho__menu__link</link> {
+.cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
 }
-
-<link>apresentacao</link> {
-    padding: 5% 5%;
+.apresentacao{
+    padding: 5% 15%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
+    justify-content: space-between;
 }
-
-<link>apresentacao__conteudo</link> {
-    max-width: 615px;
+.apresentacao__conteudo{
+    width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 2em;
-    text-align: center;
+    gap: 40px;
 }
-
-<link>apresentacao__conteudo__titulo</link> {
-    font-size: 2.25em;
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
     font-family: var(--fonte-primaria);
 }
-
-.titulo-destaque {
+.titulo-destaque{
     color: var(--cor-terciaria);
 }
-
-<link>apresentacao__conteudo__texto</link> {
-    font-size: 1.5em;
+.apresentacao__conteudo__texto{
+    font-size: 24px;
     font-family: var(--fonte-secundaria);
 }
-
-<link>apresentacao__links</link> {
+.apresentacao__links{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 2em;
+    gap: 32px;
 }
-
-<link>apresentacao__links__subtitulo</link> {
+.apresentacao__links__subtitulo{
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 24px;
 }
-
-<link>apresentacao__links__link</link> {
+.apresentacao__links__link{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 1em;
+    gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 100%;
-    max-width: 378px;
+    width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: 600;
-    padding: 1.5em 0;
+    padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
-
-<link>apresentacao__links__link</link>:hover {
+.apresentacao__links__link:hover{
     background-color: var(--cor-hover);
 }
-
-<link>rodape</link> {
+.rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    padding: 1.5em;
+    padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 1.5em;
+    font-size: 24px;
+    font-weight: 400;
 }
+/* ... (seu CSS existente) ... */
 
-<link>imagem-redimensionada</link> {
-    max-width: 100%;
-    height: auto;
+.imagem-redimensionada {
+    max-width: 5%;
+    max-width: 10%;
+    height: 10%;
 }
-
-<link>imagem</link> {
-    max-width: 100%;
-    height: auto;
+.imagem {
+    width: 500px; /* Defina a largura desejada */
+    height: auto; /* Mantenha a proporção original da imagem */
 }
-
-<link>imagem2</link> {
-    max-width: 100%;
-    height: auto;
+.imagem2 {
+    width: 500px; /* Defina a largura desejada */
+    height: auto; /* Mantenha a proporção original da imagem */
 }
-
+/* Estilos para telas pequenas (por exemplo, dispositivos móveis) */
 @media (max-width: 767px) {
-    <link>cabecalho</link> {
-        padding: 2% 5%;
+    /* Adicione estilos específicos para telas pequenas aqui */
+    .apresentacao {
+        padding: 5% 5%; /* Ajuste o espaçamento conforme necessário */
     }
-    <link>apresentacao</link> {
-        padding: 5% 5%;
+    .apresentacao__conteudo {
+        width: 100%; /* Faça com que o conteúdo ocupe a largura total */
     }
-    <link>apresentacao__conteudo</link> {
-        max-width: 100%;
-    }
-    <link>imagem</link>,
-    <link>imagem2</link> {
-        width: 100%;
+    .imagem {
+        width: 100%; /* Faça a imagem ocupar a largura total */
     }
 }
-
+/* Estilos para telas maiores (por exemplo, desktops) */
 @media (min-width: 768px) {
-    <link>cabecalho</link> {
-        padding: 2% 10%;
+    /* Adicione estilos específicos para telas maiores aqui */
+    .apresentacao {
+        padding: 5% 15%; /* Ajuste o espaçamento conforme necessário */
     }
-    <link>apresentacao</link> {
-        padding: 5% 15%;
+    .apresentacao__conteudo {
+        width: 615px; /* Restaure a largura original do conteúdo */
+    }
+    .imagem {
+        width: 500px; /* Restaure a largura original da imagem */
     }
 }
-
