@@ -9,153 +9,150 @@
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 
-body{
-    box-sizing: border-box;
-    text-decoration: none;
+body {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
-.cabecalho{
+
+<link>cabecalho</link> {
     display: flex;
-    padding: 2% 0% 0% 15%;
+    padding: 2% 5%;
+    justify-content: space-between;
+    align-items: center;
 }
-.cabecalho__menu{
+
+<link>cabecalho__menu</link> {
     display: flex;
-    gap: 80px;
+    gap: 3vw;
 }
-.cabecalho__menu__link{
-    display: flex;
+
+<link>cabecalho__menu__link</link> {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
 }
-.apresentacao{
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.apresentacao__conteudo{
-    display: flex;
-    width: 615px;
+
+<link>apresentacao</link> {
+    padding: 5% 5%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    align-items: center;
+    text-align: center;
 }
 
-.apresentacao__conteudo__titulo{
+<link>apresentacao__conteudo</link> {
+    max-width: 615px;
     display: flex;
-    font-size: 36px;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+}
+
+<link>apresentacao__conteudo__titulo</link> {
+    font-size: 2.25em;
     font-family: var(--fonte-primaria);
 }
-.titulo-destaque{
+
+.titulo-destaque {
     color: var(--cor-terciaria);
 }
-.apresentacao__conteudo__texto{
-    display: flex;
-    font-size: 24px;
+
+<link>apresentacao__conteudo__texto</link> {
+    font-size: 1.5em;
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__links{
+<link>apresentacao__links</link> {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 2em;
 }
-.apresentacao__links__subtitulo{
-    display: flex;
+
+<link>apresentacao__links__subtitulo</link> {
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5em;
 }
-.apresentacao__links__link{
+
+<link>apresentacao__links__link</link> {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    align-items: center;
+    gap: 1em;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 100%;
+    max-width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 1.5em 0;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
-.apresentacao__links__link:hover{
-    display: flex;
+
+<link>apresentacao__links__link</link>:hover {
     background-color: var(--cor-hover);
 }
-.rodape{
-    display: flex;
+
+<link>rodape</link> {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    padding: 24px;
+    padding: 1.5em;
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 1.5em;
 }
 
+<link>imagem-redimensionada</link> {
+    max-width: 100%;
+    height: auto;
+}
 
-.imagem-redimensionada {
-    display: flex;
-    max-width: 10%;
-    height: 10%;
+<link>imagem</link> {
+    max-width: 100%;
+    height: auto;
 }
-.imagem {
-    display: flex;
-    width: 500px; 
-    height: auto; 
-}
-.imagem2 {
-    display: flex;
-    width: 500px; 
-    height: auto; 
+
+<link>imagem2</link> {
+    max-width: 100%;
+    height: auto;
 }
 
 @media (max-width: 767px) {
-    display: flex;
-    .apresentacao {
-        padding: 5% 5%; 
-        display: flex;
+    <link>cabecalho</link> {
+        padding: 2% 5%;
     }
-    .apresentacao__conteudo {
-        width: 100%; 
-        display: flex;
+    <link>apresentacao</link> {
+        padding: 5% 5%;
     }
-    .imagem {
-        width: 100%; 
-        display: flex;
+    <link>apresentacao__conteudo</link> {
+        max-width: 100%;
+    }
+    <link>imagem</link>,
+    <link>imagem2</link> {
+        width: 100%;
     }
 }
 
-
 @media (min-width: 768px) {
-    display: flex;
-    
-    .apresentacao {
-        display: flex;
-        padding: 5% 15%; 
+    <link>cabecalho</link> {
+        padding: 2% 10%;
     }
-    .apresentacao__conteudo {
-        display: flex;
-        width: 615px;
-    }
-    .imagem {
-        display: flex;
-        width: 500px; 
+    <link>apresentacao</link> {
+        padding: 5% 15%;
     }
 }
 
