@@ -20,6 +20,7 @@ body{
     color: var(--cor-secundaria);
 }
 .cabecalho{
+    display: flex;
     padding: 2% 0% 0% 15%;
 }
 .cabecalho__menu{
@@ -27,6 +28,7 @@ body{
     gap: 80px;
 }
 .cabecalho__menu__link{
+    display: flex;
     font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 600;
@@ -34,12 +36,14 @@ body{
     text-decoration: none;
 }
 .apresentacao{
+    display: flex;
     padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .apresentacao__conteudo{
+    display: flex;
     width: 615px;
     display: flex;
     flex-direction: column;
@@ -86,9 +90,11 @@ body{
     font-family: var(--fonte-secundaria);
 }
 .apresentacao__links__link:hover{
+    display: flex;
     background-color: var(--cor-hover);
 }
 .rodape{
+    display: flex;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     padding: 24px;
@@ -100,14 +106,17 @@ body{
 /* ... (seu CSS existente) ... */
 
 .imagem-redimensionada {
+    display: flex;
     max-width: 10%;
     height: 10%;
 }
 .imagem {
+    display: flex;
     width: 500px; /* Defina a largura desejada */
     height: auto; /* Mantenha a proporção original da imagem */
 }
 .imagem2 {
+    display: flex;
     width: 500px; /* Defina a largura desejada */
     height: auto; /* Mantenha a proporção original da imagem */
 }
