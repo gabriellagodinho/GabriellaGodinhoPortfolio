@@ -97,19 +97,16 @@ body{
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
 }
-.apresentacao__imagem{
-    width: 50%;
-}
 
 .imagem {
-    width: 80%; 
+    width: 650%; 
     height: auto;
     display: block; 
     margin: auto; 
 }
 
 .imagem2 {
-    width: 80%; 
+    width: 65%; 
     height: auto;
     display: block; 
     margin: auto; 
