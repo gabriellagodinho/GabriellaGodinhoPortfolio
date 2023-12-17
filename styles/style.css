@@ -100,14 +100,14 @@ body{
 }
 
 .imagem {
-    width: auto; 
+    width: 50%; 
     height: auto;
     display: block; 
     margin: auto; 
 }
 
 .imagem2 {
-    width: auto; 
+    width: 50%; 
     height: auto;
     display: block; 
     margin: auto; 
