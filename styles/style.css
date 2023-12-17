@@ -33,11 +33,6 @@ body{
     color: var(--cor-terciaria);
     text-decoration: none;
 }
-
-.cabecalho__icone imagem-redimensionada {
-     width: 50%;
-}
-
 .apresentacao{
     padding: 5% 15%;
     display: flex;
