@@ -37,6 +37,8 @@ body{
 .cabecalho__icone {
     width: 50%;
     height: auto;
+    display: block; 
+    margin: auto;
 }
 
 .apresentacao{
