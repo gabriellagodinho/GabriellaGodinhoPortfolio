@@ -35,7 +35,7 @@ body{
 }
 
 .cabecalho__icone {
-    width: 50%;
+    width: 15%;
     height: auto;
     display: block; 
     margin: auto;
@@ -102,7 +102,7 @@ body{
 }
 
 .imagem {
-    width: 50%; 
+    width: 80%; 
     height: auto;
     display: block; 
     margin: auto; 
