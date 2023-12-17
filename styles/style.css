@@ -20,7 +20,11 @@ body{
     color: var(--cor-secundaria);
 }
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
 }
 .cabecalho__menu{
     display: flex;
@@ -35,11 +39,7 @@ body{
 }
 
 .cabecalho__icone {
-    width: 5%;
-    height: auto;
-    display: block; 
-    margin: auto;
-    gap: 80px;
+   height: 72px;
 }
 
 .apresentacao{
