@@ -39,6 +39,7 @@ body{
     height: auto;
     display: block; 
     margin: auto;
+    gap: 80px;
 }
 
 .apresentacao{
