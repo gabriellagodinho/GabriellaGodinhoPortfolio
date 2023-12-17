@@ -108,6 +108,13 @@ body{
     margin: auto; 
 }
 
+.imagem2 {
+    width: 80%; 
+    height: auto;
+    display: block; 
+    margin: auto; 
+}
+
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
