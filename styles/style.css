@@ -123,6 +123,19 @@ body{
     font-weight: 400;
 }
 
+.meu-botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.meu-botao:hover {
+  background-color: #0056b3;
+}
+
 @media (max-width: 1200px) {
     .cabecalho{
          padding: 10%;  
