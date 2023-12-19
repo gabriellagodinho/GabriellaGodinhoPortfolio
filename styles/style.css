@@ -94,7 +94,13 @@ body{
     text-decoration: none;
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
+    
 }
+
+.apresentacao__links__navegacao img {
+    max-width: 100%; 
+    height: auto; 
+
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
 }
