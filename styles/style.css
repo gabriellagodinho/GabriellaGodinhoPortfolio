@@ -92,7 +92,7 @@ body{
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
 }
 .apresentacao__links__link:hover{
@@ -134,7 +134,7 @@ body{
   font-family: var(--fonte-secundaria);
   font-size: 1.5rem;
   font-weight: 600;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona uma transição suave nas mudanças de cor */
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .meu-botao:hover {
