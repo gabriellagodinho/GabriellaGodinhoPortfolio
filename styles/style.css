@@ -80,7 +80,7 @@ body{
     font-weight: 400;
     font-size: 1.5rem;
 }
-.apresentacao__links__navegacao{
+ .apresentacao__links__navegacao .img-link {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -94,12 +94,10 @@ body{
     text-decoration: none;
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
-    
+    max-width: 100%;
+    height: auto;
+    margin: auto;
 }
-
-.img-link {
-    max-width: 100%; 
-    height: auto; 
 
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
