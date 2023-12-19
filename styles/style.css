@@ -126,28 +126,22 @@ body{
 .meu-botao {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: transparent;
+  border: 2px solid var(--cor-terciaria);
+  color: var(--cor-terciaria);
   text-decoration: none;
   border-radius: 5px;
-}
-
-.meu-botao {
-  display: inline-block;
-  padding: 15px 30px;
-  background-color: var(--cor-terciaria);
-  color: var(--cor-secundaria);
-  text-decoration: none;
-  border-radius: 50%;
   font-family: var(--fonte-secundaria);
   font-size: 1.5rem;
   font-weight: 600;
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.3s ease, color 0.3s ease; /* Adiciona uma transição suave nas mudanças de cor */
 }
 
 .meu-botao:hover {
-  background-color: var(--cor-hover);
+  background-color: var(--cor-terciaria);
+  color: var(--cor-secundaria);
 }
+
 
 @media (max-width: 1200px) {
     .cabecalho{
