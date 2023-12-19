@@ -14,12 +14,11 @@
     padding: 0;
 }
 
-body {
+body{
     box-sizing: border-box;
-    background: url ('tunnel-3233082.jpg') center/cover no-repeat fixed;
+    background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
-
 .cabecalho{
     display: flex;
     flex-direction: row;
