@@ -188,14 +188,14 @@ body{
 
 .meu-botao {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 20px 30px;
   background-color: transparent;
   border: 2px solid var(--cor-terciaria);
   color: var(--cor-terciaria);
   text-decoration: none;
   border-radius: 5px;
   font-family: var(--fonte-secundaria);
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
   transition: background-color 0.3s ease, color 0.3s ease; 
 }
