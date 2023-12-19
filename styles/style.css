@@ -66,6 +66,13 @@ body{
 .titulo-destaque{
     color: var(--cor-terciaria);
 }
+
+.apresentacao__conteudo__texto_projetos__destaque {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    margin-bottom: 20px;
+}
 .apresentacao__conteudo__texto{
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
