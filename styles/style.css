@@ -76,6 +76,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: justify;
 }
 
 .apresentacao__conteudo__titulo_projetos {
@@ -87,6 +88,7 @@ body{
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .apresentacao__conteudo__texto_projetos ul {
@@ -99,6 +101,7 @@ body{
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
     text-align: left;
+    text-align: justify;
 }
 
 .apresentacao__links{
