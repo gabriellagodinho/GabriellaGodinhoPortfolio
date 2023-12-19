@@ -80,15 +80,9 @@ body{
     font-weight: 400;
     font-size: 1.5rem;
 }
- .apresentacao__links__navegacao img {
-    max-width: 60%;
-    height: auto;
-    display: block;
-    margin: auto;
-}
-
-.apresentacao__links__navegacao {
+ .apresentacao__links__navegacao {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
@@ -103,7 +97,24 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao img {
+    max-width: 60%;
+    height: auto;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.apresentacao__links__navegacao span {
+    flex: 1;
+    text-align: left;
+}
+
+.apresentacao__links__link:hover {
     background-color: var(--cor-hover);
 }
 
