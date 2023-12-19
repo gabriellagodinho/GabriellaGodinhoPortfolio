@@ -102,6 +102,14 @@ body{
     height: auto;
 }
 
+.apresentacao__links__navegacao .github-logo {
+    max-width: 30%; 
+}
+
+.apresentacao__links__navegacao .instagram-logo {
+    max-width: 30%; 
+}
+
 .apresentacao__links__subtitulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
