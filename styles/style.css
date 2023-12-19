@@ -16,10 +16,10 @@
 
 body {
     box-sizing: border-box;
-    background: url('./assets/tunnel-3233082.jpg') center/cover no-repeat fixed;
+    background: url('assets/tunnel-3233082.jpg') center/cover no-repeat fixed;
     color: var(--cor-secundaria);
 }
-    
+
 .cabecalho{
     display: flex;
     flex-direction: row;
