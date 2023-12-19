@@ -76,19 +76,19 @@ body{
 .apresentacao__conteudo__texto_projetos {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
-    margin-bottom: 20px; /* espaço entre os blocos de texto */
+    margin-bottom: 20px;
 }
 
 .apresentacao__conteudo__texto_projetos ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 10px; /* ajuste conforme necessário */
+    margin-top: 10px;
 }
 
 .apresentacao__conteudo__texto_projetos li {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
-    text-align: left; /* alinha o texto à esquerda dentro das listas */
+    text-align: left;
 }
 
 .apresentacao__links{
