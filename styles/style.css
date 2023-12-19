@@ -81,7 +81,7 @@ body{
     font-size: 1.5rem;
 }
  .apresentacao__links__navegacao img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
     display: block;
     margin: auto;
