@@ -132,8 +132,21 @@ body{
   border-radius: 5px;
 }
 
+.meu-botao {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: var(--cor-terciaria);
+  color: var(--cor-secundaria);
+  text-decoration: none;
+  border-radius: 50%;
+  font-family: var(--fonte-secundaria);
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease; 
+}
+
 .meu-botao:hover {
-  background-color: #0056b3;
+  background-color: var(--cor-hover);
 }
 
 @media (max-width: 1200px) {
