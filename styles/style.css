@@ -80,7 +80,14 @@ body{
     font-weight: 400;
     font-size: 1.5rem;
 }
- .apresentacao__links__navegacao .img-link {
+ .apresentacao__links__navegacao img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -94,9 +101,6 @@ body{
     text-decoration: none;
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
-    max-width: 100%;
-    height: auto;
-    margin: auto;
 }
 
 .apresentacao__links__link:hover{
