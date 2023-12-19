@@ -80,6 +80,7 @@ body{
     font-family: var(--fonte-secundaria);
     text-align: justify;
     justify-content: center;
+    font-weight: bold;
 }
 
 .apresentacao__conteudo {
