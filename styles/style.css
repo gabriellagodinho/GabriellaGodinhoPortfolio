@@ -180,7 +180,7 @@ body{
 }
 
 .imagem {
-    width: 100%; /* Defina a largura desejada */
+    width: 50%; /* Defina a largura desejada */
     aspect-ratio: 1/1; /* Mantenha uma proporção quadrada */
     height: auto; /* A altura será ajustada automaticamente de acordo com a proporção */
     display: block;
@@ -188,7 +188,7 @@ body{
 }
 
 .imagem2 {
-    width: 100%; 
+    width: 50%; 
     aspect-ratio: 1/1; 
     height: auto; 
     display: block;
