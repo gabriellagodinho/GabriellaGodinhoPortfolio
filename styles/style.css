@@ -28,8 +28,31 @@ body{
 }
 .cabecalho__menu{
     display: flex;
-    gap: 5px;
+    gap: 20px;
 }
+
+@media (max-width: 768px) {
+    .cabecalho__menu {
+        display: none; 
+    }
+
+    .menu-hamburguer {
+        display: block; 
+    }
+
+    .menu-hamburguer__icone {
+        
+    }
+
+    .menu-hamburguer__lista {
+        display: none; 
+    }
+
+    .menu-hamburguer__ativo .menu-hamburguer__lista {
+        display: block; 
+    }
+}
+
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
