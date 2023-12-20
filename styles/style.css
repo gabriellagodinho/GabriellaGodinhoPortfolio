@@ -58,27 +58,29 @@ body{
 
     .cabecalho {
         padding: 5%; /* Reduzindo o padding do cabeçalho para dispositivos móveis */
+        text-align: center; /* Centralizando os itens do cabeçalho em dispositivos móveis */
     }
 
     .cabecalho__menu {
-        flex-direction: row; /* Mantendo a direção do menu como linha em dispositivos móveis */
-        justify-content: center; /* Centralizando os itens do menu */
+        display: flex;
+        flex-direction: column; /* Alterando a direção do menu para coluna em dispositivos móveis */
+        align-items: center;
     }
 
     .cabecalho__menu__link {
         font-size: 1.2rem; /* Reduzindo o tamanho da fonte dos links do menu em dispositivos móveis */
-        margin: 0 10px; /* Adicionando margem entre os links do menu em dispositivos móveis */
+        margin: 10px 0; /* Adicionando margem entre os links do menu em dispositivos móveis */
     }
 
-   .cabecalho__icone {
+    .cabecalho__icone {
         height: 30px; /* Reduzindo o tamanho do ícone em dispositivos móveis */
-        margin-left: 50px; /* Adicionando espaçamento à esquerda do ícone em dispositivos móveis */
-        margin-right: 10px; /* Adicionando espaço entre o ícone e os links do menu em dispositivos móveis */
+        margin: 10px 0; /* Adicionando margem ao ícone em dispositivos móveis */
     }
 
     .apresentacao {
-        flex-direction: row; /* Mantendo a direção da apresentação como linha em dispositivos móveis */
+        flex-direction: column; /* Alterando a direção da apresentação para coluna em dispositivos móveis */
         padding: 5%;
+        text-align: center; /* Centralizando os itens da apresentação em dispositivos móveis */
     }
 
     .apresentacao__conteudo {
