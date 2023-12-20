@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
         iconeHamburguer.classList.toggle('menu-hamburguer__icone-ativo');
     });
 
-    // Verifica se a largura da tela é menor ou igual a 768 pixels (pode ser ajustado conforme necessário)
     function verificarTamanhoTela() {
         if (window.innerWidth <= 768) {
             menuHamburguer.style.display = 'block';
@@ -19,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Chama a função ao carregar a página e redimensionar a tela
     window.addEventListener('load', verificarTamanhoTela);
     window.addEventListener('resize', verificarTamanhoTela);
 });
