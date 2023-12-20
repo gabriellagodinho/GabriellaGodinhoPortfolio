@@ -28,7 +28,7 @@ body{
 }
 .cabecalho__menu{
     display: flex;
-    gap: 20px;
+    gap: 5px;
 }
 
 @media (max-width: 768px) {
@@ -212,7 +212,7 @@ body{
 }
 
 .imagem2 {
-    width: 60%; 
+    width: 50%; 
     aspect-ratio: 1/1; 
     height: auto;
     object-fit: cover;
