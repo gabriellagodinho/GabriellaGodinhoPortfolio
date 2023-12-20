@@ -70,9 +70,9 @@ body{
         margin: 0 10px; /* Adicionando margem entre os links do menu em dispositivos móveis */
     }
 
-    .cabecalho__icone {
-        height: 35px;
-        margin-left: 5px;
+   .cabecalho__icone {
+        height: 30px; /* Reduzindo o tamanho do ícone em dispositivos móveis */
+        margin-left: 50px; /* Adicionando espaçamento à esquerda do ícone em dispositivos móveis */
         margin-right: 10px; /* Adicionando espaço entre o ícone e os links do menu em dispositivos móveis */
     }
 
