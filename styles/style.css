@@ -71,8 +71,8 @@ body{
     }
 
     .cabecalho__icone {
-        height: 30px; /* Reduzindo o tamanho do ícone em dispositivos móveis */
-        margin-right: 5px; /* Adicionando espaço entre o ícone e os links do menu em dispositivos móveis */
+        height: 35px; /* Reduzindo o tamanho do ícone em dispositivos móveis */
+        margin-right: 2px; /* Adicionando espaço entre o ícone e os links do menu em dispositivos móveis */
     }
 
     .apresentacao {
