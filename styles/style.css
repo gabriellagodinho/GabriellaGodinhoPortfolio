@@ -31,6 +31,12 @@ body{
     gap: 5px;
 }
 
+.menu-hamburguer__icone-ativo {
+    transform: rotate(90deg); /* ou a rotação desejada quando o menu estiver ativo */
+    transition: transform 0.3s ease;
+}
+
+
 @media (max-width: 768px) {
     .cabecalho__menu {
         display: none; 
