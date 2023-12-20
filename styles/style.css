@@ -50,6 +50,36 @@ body{
     justify-content: space-between;
     gap: 82px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Tamanho de fonte menor para dispositivos móveis */
+    }
+
+    .cabecalho {
+        padding: 5%; /* Reduzindo o padding do cabeçalho para dispositivos móveis */
+    }
+
+    .cabecalho__menu {
+        flex-direction: column; /* Alterando a direção do menu para coluna em dispositivos móveis */
+        align-items: center;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1.2rem; /* Reduzindo o tamanho da fonte dos links do menu em dispositivos móveis */
+        margin: 5px 0; /* Adicionando margem entre os links do menu em dispositivos móveis */
+    }
+
+    .cabecalho__icone {
+        height: 30px; /* Reduzindo o tamanho do ícone em dispositivos móveis */
+        margin-bottom: 10px; /* Adicionando espaço entre o ícone e os links do menu em dispositivos móveis */
+    }
+
+    .apresentacao {
+        flex-direction: column; /* Alterando a direção da apresentação para coluna em dispositivos móveis */
+        padding: 5%;
+    }
+}
 .apresentacao__conteudo{
     width: 50%;
     display: flex;
