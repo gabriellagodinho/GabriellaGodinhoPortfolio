@@ -216,17 +216,39 @@ body{
     background-color: var(--cor-hover);
 }
 
-.apresentacao__conteudo__titulo,
-.apresentacao__conteudo__titulo_projetos,
-.apresentacao__conteudo__texto_projetos__destaque,
-.apresentacao__conteudo__texto,
-.apresentacao__conteudo__texto_projetos {
-    text-align: center;
-}
+@media only screen and (max-width: 600px) {
+    .apresentacao {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.apresentacao__links__subtitulo,
-.apresentacao__links__navegacao {
-    text-align: center;
+    .apresentacao__conteudo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .apresentacao__conteudo__titulo,
+    .apresentacao__conteudo__titulo_projetos,
+    .apresentacao__conteudo__texto_projetos__destaque,
+    .apresentacao__conteudo__texto,
+    .apresentacao__conteudo__texto_projetos,
+    .apresentacao__links__subtitulo,
+    .apresentacao__links__navegacao {
+        text-align: center;
+    }
+
+    .apresentacao__links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apresentacao__links__navegacao {
+        width: 100%;
+    }
+
+    .imagem {
+        width: 100%;
+    }
 }
 
 .imagem {
