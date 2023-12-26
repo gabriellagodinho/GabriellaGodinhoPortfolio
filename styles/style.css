@@ -216,6 +216,19 @@ body{
     background-color: var(--cor-hover);
 }
 
+.apresentacao__conteudo__titulo,
+.apresentacao__conteudo__titulo_projetos,
+.apresentacao__conteudo__texto_projetos__destaque,
+.apresentacao__conteudo__texto,
+.apresentacao__conteudo__texto_projetos {
+    text-align: center;
+}
+
+.apresentacao__links__subtitulo,
+.apresentacao__links__navegacao {
+    text-align: center;
+}
+
 .imagem {
     width: 55%;
     aspect-ratio: 1/1; 
