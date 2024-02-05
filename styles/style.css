@@ -86,6 +86,33 @@ body{
     }
 
 }
+
+body {
+            font-family: 'Your-Preferred-Font', sans-serif; /* Replace 'Your-Preferred-Font' with the desired font-family */
+        }
+
+        .apresentacao__conteudo__titulo_projetos,
+        .project-title,
+        .project-subtitle {
+            margin-bottom: 10px; /* Adjust margin as needed */
+        }
+
+        .apresentacao__conteudo__texto_projetos,
+        .project-description,
+        .project-details,
+        .project-link {
+            margin-bottom: 20px; /* Adjust margin as needed */
+        }
+
+        .project-details {
+            margin-left: 20px; /* Adjust margin as needed */
+        }
+
+        .project-link {
+            font-size: 14px;
+            color: #0066cc; /* Change color if needed */
+            margin-top: 10px; /* Adjust margin as needed */
+        }
 .apresentacao__conteudo{
     width: 50%;
     display: flex;
