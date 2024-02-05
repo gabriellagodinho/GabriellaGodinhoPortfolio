@@ -94,7 +94,7 @@ body {
         .apresentacao__conteudo__titulo_projetos,
         .project-title,
         .project-subtitle {
-            margin-bottom: 10px; /* Adjust margin as needed */
+            margin-bottom: 15px; /* Adjust margin as needed */
         }
 
         .apresentacao__conteudo__texto_projetos,
@@ -108,12 +108,7 @@ body {
             margin-left: 20px; /* Adjust margin as needed */
         }
 
-        .project-link {
-            font-size: 14px;
-            color: #0066cc; /* Change color if needed */
-            margin-top: 10px; /* Adjust margin as needed */
-        }
-.botao-projeto {
+        .botao-projeto {
             display: block;
             width: 200px; /* Adjust width as needed */
             height: 40px; /* Adjust height as needed */
@@ -126,10 +121,10 @@ body {
             border-radius: 4px; /* Adjust border-radius as needed */
             cursor: pointer;
             line-height: 40px; /* Adjust line-height to center vertically */
-            margin: 0 auto; /* Center the button horizontally */
+            margin: 0 auto 20px; /* Center the button horizontally and add bottom margin */
         }
 
-.botao-projeto:hover {
+        .botao-projeto:hover {
             background-color: #005bb5; /* Button background color on hover */
             border-color: #005bb5; /* Button border color on hover */
         }
